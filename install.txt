@@ -1,0 +1,26 @@
+For running the web application,
+
+1. Cd into the backend directory from command prompt
+2. Perform 'npm install'
+3. Run 'node server.js'
+4. The website will be accessible at 'http://localhost:5000'
+
+Additional steps for changes in react
+5. The react application is also rendered server side and it resides in the 'build' folder
+6. To generate a new build file, go to the 'frontend' directory , run 'npm install'
+7. Then use 'npm start' to check the react application at 'http://localhost:3000'
+8. Finally, use 'npm run build' and copy-paste the created build folder into the backend folder.
+
+
+Blockchain application
+
+1. Ethereum smart contract interface is present in 'ethcontractdev' folder
+2. Install all requirements by going into 'flaskapi' folder and run 'pip install requirements.txt'
+3. The smart contract function interfaces are present in nodeOneInterface and nodeTwoInterface
+4. To check its working, run 'python demo.py' command and
+   check the transactions at
+   https://kovan.etherscan.io/address/0x9b1e4132a784e5854b4df1929d0f80531f6ed227
+5. Flask api is optional which has routes to get agriculture news and weather details
+6. It can be accessed by running 'python app.py' and accessed at
+   a) http://localhost:3000/agriculture/news
+   b) http://localhost:3000/weather

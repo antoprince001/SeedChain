@@ -1,0 +1,18 @@
+Node version : v10.15.1
+
+"bcryptjs": "^2.4.3",
+"cookie-parser": "^1.4.5",
+"cors": "^2.8.5",
+"ejs": "^3.1.5",
+"express": "^4.17.1",
+"mongoose": "^5.10.11",
+"request": "^2.88.2"
+
+
+Note : 'npm install' command from backend directory will install all dependencies of node.js
+
+Python version: Python 3.7.7
+
+Python dependencies are required separately and do not affect the running of node application.
+The requirements are present in ethcontractdev/flaskapi in the file requirements.txt
+They can be installed using 'pip install requirements.txt'
